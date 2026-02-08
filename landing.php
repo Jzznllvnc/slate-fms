@@ -279,8 +279,8 @@
                 <div class="footer-section">
                     <h4>Learn</h4>
                     <a href="#">Legal</a>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms & Conditions</a>
+                    <a href="privacy.php" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                    <a href="terms.php" target="_blank" rel="noopener noreferrer">Terms & Conditions</a>
                     <a href="#">Scam Awareness</a>
                 </div>
             </div>
@@ -289,8 +289,8 @@
             <div class="footer-bottom-content">
                 <div class="footer-bottom-left">
                     <span>&copy; 2025 SLATE</span>
-                    <a href="#">Terms & Conditions</a>
-                    <a href="#">Privacy Policy</a>
+                    <a href="terms.php" target="_blank" rel="noopener noreferrer">Terms & Conditions</a>
+                    <a href="privacy.php" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                 </div>
                 <div class="footer-social">
                     <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>

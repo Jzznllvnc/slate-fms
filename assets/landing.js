@@ -117,14 +117,14 @@
         
         function closeModal(modalId) {
             document.getElementById(modalId).style.display = 'none';
-            document.body.style.overflow = 'auto';
+            document.body.style.overflow = '';
         }
         
         // Close modal when clicking outside
         window.onclick = function(event) {
             if (event.target.classList.contains('modal')) {
                 event.target.style.display = 'none';
-                document.body.style.overflow = 'auto';
+                document.body.style.overflow = '';
             }
         }
         
@@ -134,6 +134,6 @@
                 document.querySelectorAll('.modal').forEach(modal => {
                     modal.style.display = 'none';
                 });
-                document.body.style.overflow = 'auto';
+                document.body.style.overflow = '';
             }
         });
