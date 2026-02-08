@@ -151,6 +151,85 @@
         </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="faq-shell">
+            <div class="faq-intro reveal">
+                <h2>Frequently Asked Questions</h2>
+                <p>Find the answer to commonly asked questions here.</p>
+                <div class="faq-support">
+                    <div class="faq-support-copy">
+                        <i data-lucide="help-circle"></i>
+                        <span>Need further support?</span>
+                    </div>
+                    <a href="#contact" class="faq-contact-button">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="faq-list reveal">
+                <article class="faq-item open">
+                    <button class="faq-question" type="button" aria-expanded="true">
+                        <span>How do I access a specific subsystem in SLATE?</span>
+                        <span class="faq-icon" aria-hidden="true">
+                            <i data-lucide="chevron-down"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Go to the Subsystems Portal section, select the module you need, and click Open. SLATE will launch the selected subsystem in a new tab.</p>
+                    </div>
+                </article>
+
+                <article class="faq-item">
+                    <button class="faq-question" type="button" aria-expanded="false">
+                        <span>What should I do if a subsystem does not open?</span>
+                        <span class="faq-icon" aria-hidden="true">
+                            <i data-lucide="chevron-down"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Check your internet connection and make sure pop-ups are allowed for this site. If the issue continues, use the Contact Us button so the team can assist you.</p>
+                    </div>
+                </article>
+
+                <article class="faq-item">
+                    <button class="faq-question" type="button" aria-expanded="false">
+                        <span>Do I need separate accounts for each subsystem?</span>
+                        <span class="faq-icon" aria-hidden="true">
+                            <i data-lucide="chevron-down"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Access depends on your assigned role and permissions. Your administrator provides credentials and confirms which SLATE modules are enabled for your account.</p>
+                    </div>
+                </article>
+
+                <article class="faq-item">
+                    <button class="faq-question" type="button" aria-expanded="false">
+                        <span>Which browser works best with SLATE?</span>
+                        <span class="faq-icon" aria-hidden="true">
+                            <i data-lucide="chevron-down"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>SLATE works best on modern versions of Chrome, Edge, and Firefox. Keep your browser updated for better performance, security, and compatibility.</p>
+                    </div>
+                </article>
+
+                <article class="faq-item">
+                    <button class="faq-question" type="button" aria-expanded="false">
+                        <span>Where can I report errors or request technical support?</span>
+                        <span class="faq-icon" aria-hidden="true">
+                            <i data-lucide="chevron-down"></i>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can reach support through the Contact section in the footer. Include the module name and issue details so the team can resolve your request faster.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
     <!-- Modals -->
     <!-- HR Modal -->
     <div id="hrModal" class="modal">
@@ -267,7 +346,7 @@
                     <a href="#">Documentation</a>
                     <a href="#">Help Center</a>
                     <a href="#">System Status</a>
-                    <a href="#">FAQs</a>
+                    <a href="#faq">FAQs</a>
                 </div>
                 <div class="footer-section">
                     <h4>Company</h4>
@@ -289,8 +368,7 @@
             <div class="footer-bottom-content">
                 <div class="footer-bottom-left">
                     <span>&copy; 2025 SLATE</span>
-                    <a href="terms.php" target="_blank" rel="noopener noreferrer">Terms & Conditions</a>
-                    <a href="privacy.php" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                    <span>All rights reserved.</span>
                 </div>
                 <div class="footer-social">
                     <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>

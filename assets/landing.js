@@ -97,6 +97,27 @@
         
         window.addEventListener('scroll', checkScroll);
         checkScroll(); // Check on load
+
+        // FAQ accordion
+        const faqQuestions = document.querySelectorAll('.faq-question');
+
+        faqQuestions.forEach((question) => {
+            question.addEventListener('click', () => {
+                const currentItem = question.closest('.faq-item');
+                const isOpen = currentItem.classList.contains('open');
+
+                faqQuestions.forEach((button) => {
+                    const item = button.closest('.faq-item');
+                    item.classList.remove('open');
+                    button.setAttribute('aria-expanded', 'false');
+                });
+
+                if (!isOpen) {
+                    currentItem.classList.add('open');
+                    question.setAttribute('aria-expanded', 'true');
+                }
+            });
+        });
         
         // Nav scroll effect
         window.addEventListener('scroll', function() {
