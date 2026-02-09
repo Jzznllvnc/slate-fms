@@ -350,7 +350,7 @@
                 </div>
                 <div class="footer-section">
                     <h4>Company</h4>
-                    <a href="#">About Us</a>
+                    <a href="#about">About Us</a>
                     <a href="#">Our Team</a>
                     <a href="#">Contact Us</a>
                     <a href="#">Capstone Project</a>
@@ -367,7 +367,7 @@
         <div class="footer-bottom">
             <div class="footer-bottom-content">
                 <div class="footer-bottom-left">
-                    <span>&copy; 2025 SLATE</span>
+                    <span>&copy; 2026 SLATE</span>
                     <span>All rights reserved.</span>
                 </div>
                 <div class="footer-social">
