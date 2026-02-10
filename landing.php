@@ -359,8 +359,8 @@
                 <div class="footer-section">
                     <h4>Learn</h4>
                     <a href="#">Legal</a>
-                    <a href="privacy.php" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
-                    <a href="terms.php" target="_blank" rel="noopener noreferrer">Terms & Conditions</a>
+                    <a href="privacy.php">Privacy Policy</a>
+                    <a href="terms.php">Terms & Conditions</a>
                     <a href="#">Scam Awareness</a>
                 </div>
             </div>
